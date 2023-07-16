@@ -1,3 +1,17 @@
-.index-title {
-  font-size: 100px;
+.banner{
+  img{
+    width: 50%;
+  }
+}
+
+.btn{
+  img{
+    width: 24px;
+    height: 24px;
+  }
+  border-radius: 32px;
+  background: #FFF;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
 }
