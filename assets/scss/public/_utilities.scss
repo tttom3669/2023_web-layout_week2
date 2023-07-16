@@ -6,7 +6,12 @@
 .d-flex {
   display: flex;
 }
-
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
 @each $key, $value in $justify-content {
   .justify-content-#{$key} {
     justify-content: $value;
@@ -19,7 +24,7 @@
   }
 }
 
-// --- 文字大小 ---
+// --- 文字 ---
 @each $key, $value in $title-size {
   .h#{$key} {
     font-size: $value;
@@ -31,8 +36,15 @@
     font-size: $value;
   }
 }
-
+@each $value in $text-align {
+  .text-#{$value} {
+    text-align: $value;
+  }
+}
 // ---顏色---
+.bg-white {
+  background-color: #fff;
+}
 @each $key, $value in $colors {
   .text-#{$key} {
     color: $value;
@@ -56,8 +68,4 @@
   .g-#{$key} {
     gap: $value;
   }
-}
-
-.text-right {
-  text-align: right;
 }

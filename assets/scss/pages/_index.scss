@@ -15,3 +15,57 @@
   display: flex;
   align-items: center;
 }
+
+.introduction{
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+  background-size: cover;
+}
+.introduction-content{
+  max-width: 526px;
+  img{
+    width: 32px;
+    height: 98px;
+  }
+}
+
+.card{
+  max-width: 306px;
+  max-height: 148px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.aboutMe{
+  max-width: 526px;
+}
+
+.bg-contact{
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact{
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  .contact-list img{
+    border-radius: 40px;
+    width: 162px;
+    height: 162px;
+  }
+}
+.myProjects-content{
+  max-height: 530px;
+}
+.Rectangle1{
+  max-width: 416px;
+}
+.Rectangle2{
+  max-width: 196px;
+}
+.Rectangle3{
+  max-width: 306px;
+}
+.Rectangle4{
+  max-width: 526px;
+}

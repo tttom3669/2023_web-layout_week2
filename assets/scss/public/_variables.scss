@@ -1,11 +1,16 @@
-// --- 文字大小 ---
+// --- 文字 ---
 $title-size: (
   1: 128px,
-  2: 63px,
+  2: 64px,
 );
 $font-size: (
   1: 24px,
   2: 20px,
+);
+
+$text-align:(
+  center,
+  right,  
 );
 
 // ---顏色---
@@ -31,30 +36,23 @@ $direction: (
   s: left,
 );
 
-// $space-basis: 16px;
-
 $space-size: (
-  1: 0.25rem,
-  // 4px
-  2: 1rem,
-  // 16px
-  3: 1.5rem,
-  // 24px
-  4: 2rem,
-  // 32px
-  5: 2.25rem,
-  // 36px
-  6: 2.5rem,
-  // 40px
-  7: 4.5rem,
-  // 72px
-  8: 6rem,
-  // 96px
-  9: 10rem,
-  // 160px
+  4: 4px,
+  16: 16px,
+  24: 24px,
+  28: 28px,
+  32: 32px,
+  36: 36px,
+  40: 40px,
+  72: 72px,
+  76: 76px,
+  96: 96px,
+  160: 160px,
   auto: auto,
 );
 
 $gap-size: (
-  1: 24px,
+  1: 16px,
+  2: 24px,
 );
+
