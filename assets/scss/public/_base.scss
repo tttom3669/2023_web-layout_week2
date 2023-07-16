@@ -1,3 +1,6 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
 img {
   width: 100%;
   height: auto;
@@ -10,8 +13,12 @@ body {
 }
 button{
     font-family: 'Bruno Ace SC', cursive;
+    cursor: pointer;
 }
 a {
   color: #d1d1d1;
   text-decoration: none;
+    &:hover{
+        opacity: 0.8;
+    }
 }
