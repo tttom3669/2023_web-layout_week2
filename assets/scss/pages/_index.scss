@@ -1,78 +1,87 @@
-.banner{
-  img{
+.banner {
+  img {
     width: 50%;
   }
 }
 
-.btn{
-  img{
+.btn {
+  max-width: 185px;
+  img {
     width: 24px;
     height: 24px;
   }
   border-radius: 32px;
-  background: #FFF;
+  background: #fff;
   padding: 12px 24px;
   display: flex;
   align-items: center;
-  &:hover{
+  justify-content: center;
+  &:hover {
     opacity: 0.8;
   }
 }
-.btn-black{
+.btn-black {
   background: black;
-  color: #FFF;
+  color: #fff;
 }
 
-.introduction{
-  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+.introduction {
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
   background-size: cover;
 }
-.introduction-content{
+.introduction-content {
   max-width: 526px;
-  img{
+  img {
     width: 32px;
     height: 98px;
   }
 }
 
-.card{
+.card {
   max-width: 306px;
-  max-height: 148px;
   padding: 16px;
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
-.aboutMe{
+.aboutMe {
   max-width: 526px;
 }
 
-.bg-contact{
+.bg-contact {
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
 }
-.contact{
-  img{
+.contact {
+  img {
     width: 100px;
     height: 100px;
   }
-  .contact-list img{
+
+  .contact-list img {
     border-radius: 40px;
+    object-fit: contain;
     width: 162px;
     height: 162px;
   }
+  .contact-list a:first-child img{
+    &:hover {
+      box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+  }
 }
-.myProjects-content{
+.myProjects-content {
   max-height: 530px;
 }
-.Rectangle1{
+.Rectangle1 {
   max-width: 416px;
 }
-.Rectangle2{
+.Rectangle2 {
   max-width: 196px;
 }
-.Rectangle3{
+.Rectangle3 {
   max-width: 306px;
 }
-.Rectangle4{
+.Rectangle4 {
   max-width: 526px;
 }
